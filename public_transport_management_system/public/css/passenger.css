@@ -1,0 +1,12 @@
+.small-carousel {
+    height: 300px;
+}
+
+.small-carousel .carousel-item,
+.small-carousel img {
+    height: 300px;
+}
+
+.small-carousel img {
+    object-fit: cover;
+}

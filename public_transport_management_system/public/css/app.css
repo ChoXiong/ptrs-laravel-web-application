@@ -1,0 +1,60 @@
+
+.navbar {
+    box-shadow: 0 8px 15px rgba(0, 1, 82, 0.4);
+    transition: 0.2s all;
+}
+
+.navbar:hover .container-fluid{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: 0.2s all;
+}
+
+/* Welcome Page */
+/* Background image for welcome page */
+
+.landing-bg {
+    background-image: url('/images/transport-bg.jpg');
+    /* change path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.landing-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 124, 146, 0.2);
+    z-index: 0;
+}
+
+.glass-card :hover .login-register-card {
+    visibility: visible;
+}
+
+.glass-card :hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50px !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-card {
+    background-color: rgba(255, 255, 255, 0.78) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 30px !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-register-card {
+    visibility: hidden;
+}
+
+/* Welcome Page */
+
+.custom-footer {
+    background-color: #001a49; /* Replace with your desired color */
+    color: white; /* Optional: text color */
+}
